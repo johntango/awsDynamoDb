@@ -1,0 +1,3 @@
+{
+  "app": "node bin/dynamo_db.js"
+}

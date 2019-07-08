@@ -1,0 +1,1263 @@
+{
+  "version": "0.34.0",
+  "artifacts": {
+    "DynamoDbStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://048416854569/us-east-1",
+      "properties": {
+        "templateFile": "DynamoDbStack.template.json"
+      },
+      "metadata": {
+        "/DynamoDbStack/helloVpc/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloVpc9B9F5069",
+            "trace": [
+              "new Vpc (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:777:21)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:9:17)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/helloVpc/PublicSubnet1/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloVpcPublicSubnet1Subnet7DC9A25F",
+            "trace": [
+              "new Subnet (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1112:20)",
+              "new PublicSubnet (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1192:5)",
+              "availabilityZones.forEach (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:982:32)",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:964:28)",
+              "Vpc.createSubnets (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:959:12)",
+              "new Vpc (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:801:10)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:9:17)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/helloVpc/PublicSubnet1/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloVpcPublicSubnet1RouteTableE24B4DF4",
+            "trace": [
+              "new Subnet (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1124:19)",
+              "new PublicSubnet (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1192:5)",
+              "availabilityZones.forEach (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:982:32)",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:964:28)",
+              "Vpc.createSubnets (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:959:12)",
+              "new Vpc (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:801:10)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:9:17)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/helloVpc/PublicSubnet1/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloVpcPublicSubnet1RouteTableAssociation5994BFE0",
+            "trace": [
+              "new Subnet (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1130:5)",
+              "new PublicSubnet (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1192:5)",
+              "availabilityZones.forEach (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:982:32)",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:964:28)",
+              "Vpc.createSubnets (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:959:12)",
+              "new Vpc (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:801:10)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:9:17)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/helloVpc/PublicSubnet1/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloVpcPublicSubnet1DefaultRouteCCD85857",
+            "trace": [
+              "PublicSubnet.addDefaultInternetRoute (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1148:19)",
+              "Vpc.publicSubnets.forEach.publicSubnet (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:817:22)",
+              "Array.forEach (<anonymous>)",
+              "new Vpc (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:816:46)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:9:17)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/helloVpc/PublicSubnet1/EIP": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloVpcPublicSubnet1EIP533DBB0A",
+            "trace": [
+              "PublicSubnet.addNatGateway (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1204:21)",
+              "Vpc.createNatGateways (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:935:27)",
+              "new Vpc (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:821:12)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:9:17)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/helloVpc/PublicSubnet1/NATGateway": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloVpcPublicSubnet1NATGatewayA13696F8",
+            "trace": [
+              "PublicSubnet.addNatGateway (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1202:17)",
+              "Vpc.createNatGateways (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:935:27)",
+              "new Vpc (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:821:12)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:9:17)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/helloVpc/PublicSubnet2/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloVpcPublicSubnet2SubnetEFEF8172",
+            "trace": [
+              "new Subnet (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1112:20)",
+              "new PublicSubnet (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1192:5)",
+              "availabilityZones.forEach (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:982:32)",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:964:28)",
+              "Vpc.createSubnets (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:959:12)",
+              "new Vpc (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:801:10)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:9:17)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/helloVpc/PublicSubnet2/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloVpcPublicSubnet2RouteTableB25EABDC",
+            "trace": [
+              "new Subnet (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1124:19)",
+              "new PublicSubnet (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1192:5)",
+              "availabilityZones.forEach (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:982:32)",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:964:28)",
+              "Vpc.createSubnets (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:959:12)",
+              "new Vpc (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:801:10)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:9:17)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/helloVpc/PublicSubnet2/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloVpcPublicSubnet2RouteTableAssociation3F51263A",
+            "trace": [
+              "new Subnet (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1130:5)",
+              "new PublicSubnet (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1192:5)",
+              "availabilityZones.forEach (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:982:32)",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:964:28)",
+              "Vpc.createSubnets (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:959:12)",
+              "new Vpc (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:801:10)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:9:17)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/helloVpc/PublicSubnet2/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloVpcPublicSubnet2DefaultRoute3DD5AE30",
+            "trace": [
+              "PublicSubnet.addDefaultInternetRoute (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1148:19)",
+              "Vpc.publicSubnets.forEach.publicSubnet (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:817:22)",
+              "Array.forEach (<anonymous>)",
+              "new Vpc (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:816:46)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:9:17)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/helloVpc/PublicSubnet2/EIP": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloVpcPublicSubnet2EIP3837FF37",
+            "trace": [
+              "PublicSubnet.addNatGateway (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1204:21)",
+              "Vpc.createNatGateways (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:935:27)",
+              "new Vpc (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:821:12)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:9:17)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/helloVpc/PublicSubnet2/NATGateway": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloVpcPublicSubnet2NATGateway85EF9BFE",
+            "trace": [
+              "PublicSubnet.addNatGateway (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1202:17)",
+              "Vpc.createNatGateways (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:935:27)",
+              "new Vpc (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:821:12)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:9:17)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/helloVpc/PrivateSubnet1/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloVpcPrivateSubnet1Subnet6D262757",
+            "trace": [
+              "new Subnet (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1112:20)",
+              "new PrivateSubnet (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1231:5)",
+              "availabilityZones.forEach (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:987:33)",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:964:28)",
+              "Vpc.createSubnets (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:959:12)",
+              "new Vpc (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:801:10)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:9:17)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/helloVpc/PrivateSubnet1/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloVpcPrivateSubnet1RouteTable88E7B336",
+            "trace": [
+              "new Subnet (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1124:19)",
+              "new PrivateSubnet (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1231:5)",
+              "availabilityZones.forEach (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:987:33)",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:964:28)",
+              "Vpc.createSubnets (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:959:12)",
+              "new Vpc (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:801:10)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:9:17)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/helloVpc/PrivateSubnet1/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloVpcPrivateSubnet1RouteTableAssociation3C703800",
+            "trace": [
+              "new Subnet (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1130:5)",
+              "new PrivateSubnet (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1231:5)",
+              "availabilityZones.forEach (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:987:33)",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:964:28)",
+              "Vpc.createSubnets (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:959:12)",
+              "new Vpc (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:801:10)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:9:17)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/helloVpc/PrivateSubnet1/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloVpcPrivateSubnet1DefaultRouteC5D59BDC",
+            "trace": [
+              "PrivateSubnet.addDefaultNatRoute (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1165:19)",
+              "Vpc.privateSubnets.forEach (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:830:23)",
+              "Array.forEach (<anonymous>)",
+              "new Vpc (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:823:48)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:9:17)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/helloVpc/PrivateSubnet2/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloVpcPrivateSubnet2Subnet836950D6",
+            "trace": [
+              "new Subnet (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1112:20)",
+              "new PrivateSubnet (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1231:5)",
+              "availabilityZones.forEach (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:987:33)",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:964:28)",
+              "Vpc.createSubnets (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:959:12)",
+              "new Vpc (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:801:10)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:9:17)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/helloVpc/PrivateSubnet2/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloVpcPrivateSubnet2RouteTable62C5CF47",
+            "trace": [
+              "new Subnet (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1124:19)",
+              "new PrivateSubnet (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1231:5)",
+              "availabilityZones.forEach (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:987:33)",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:964:28)",
+              "Vpc.createSubnets (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:959:12)",
+              "new Vpc (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:801:10)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:9:17)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/helloVpc/PrivateSubnet2/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloVpcPrivateSubnet2RouteTableAssociation7B094613",
+            "trace": [
+              "new Subnet (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1130:5)",
+              "new PrivateSubnet (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1231:5)",
+              "availabilityZones.forEach (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:987:33)",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:964:28)",
+              "Vpc.createSubnets (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:959:12)",
+              "new Vpc (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:801:10)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:9:17)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/helloVpc/PrivateSubnet2/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloVpcPrivateSubnet2DefaultRouteB3955155",
+            "trace": [
+              "PrivateSubnet.addDefaultNatRoute (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1165:19)",
+              "Vpc.privateSubnets.forEach (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:830:23)",
+              "Array.forEach (<anonymous>)",
+              "new Vpc (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:823:48)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:9:17)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/helloVpc/IGW": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloVpcIGW0DABA8A1",
+            "trace": [
+              "new Vpc (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:808:19)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:9:17)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/helloVpc/VPCGW": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "helloVpcVPCGWABE08629",
+            "trace": [
+              "new Vpc (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:811:19)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:9:17)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/Cluster/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ClusterEB0386A7",
+            "trace": [
+              "new Cluster (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/cluster.ts:71:21)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:12:19)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/Cluster/DefaultAutoScalingGroup/InstanceSecurityGroup/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ClusterDefaultAutoScalingGroupInstanceSecurityGroup1D15236A",
+            "trace": [
+              "new SecurityGroup (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/security-group.ts:275:26)",
+              "new AutoScalingGroup (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-autoscaling/lib/auto-scaling-group.ts:371:26)",
+              "Cluster.addCapacity (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/cluster.ts:119:30)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:13:13)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/Cluster/DefaultAutoScalingGroup/InstanceSecurityGroup/from DynamoDbStackexternalSecurityGroupF43CB402:32768-65535": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ClusterDefaultAutoScalingGroupInstanceSecurityGroupfromDynamoDbStackexternalSecurityGroupF43CB40232768655353C6A18A7",
+            "trace": [
+              "SecurityGroup.addIngressRule (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/security-group.ts:79:7)",
+              "SecurityGroup.addIngressRule (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/security-group.ts:292:13)",
+              "other.connections._securityGroupRules.forEachAndForever.rule (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/connections.ts:153:23)",
+              "ReactiveList.forEachAndForever (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/connections.ts:267:7)",
+              "_securityGroups.forEachAndForever.securityGroup (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/connections.ts:152:45)",
+              "ReactiveList.forEachAndForever (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/connections.ts:267:7)",
+              "Connections.allowFrom (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/connections.ts:151:26)",
+              "Connections.allowTo (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/connections.ts:137:25)",
+              "ApplicationListener.registerConnectable (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-listener.ts:249:22)",
+              "ApplicationTargetGroup.registerListener (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-target-group.ts:143:16)",
+              "ApplicationListener.addDefaultTargetGroup (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-listener.ts:268:17)",
+              "ApplicationListener.addTargetGroups (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-listener.ts:170:14)",
+              "ApplicationListener.addTargets (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-listener.ts:204:10)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:44:22)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/Cluster/DefaultAutoScalingGroup/InstanceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ClusterDefaultAutoScalingGroupInstanceRole9A14B384",
+            "trace": [
+              "new Role (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-iam/lib/role.ts:212:18)",
+              "new AutoScalingGroup (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-autoscaling/lib/auto-scaling-group.ts:379:31)",
+              "Cluster.addCapacity (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/cluster.ts:119:30)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:13:13)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/Cluster/DefaultAutoScalingGroup/InstanceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ClusterDefaultAutoScalingGroupInstanceRoleDefaultPolicy06157A81",
+            "trace": [
+              "new Policy (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-iam/lib/policy.ts:96:22)",
+              "Role.addToPolicy (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-iam/lib/role.ts:256:28)",
+              "AutoScalingGroup.addToRolePolicy (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-autoscaling/lib/auto-scaling-group.ts:502:15)",
+              "Cluster.addAutoScalingGroup (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/cluster.ts:156:22)",
+              "Cluster.addCapacity (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/cluster.ts:127:10)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:13:13)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/Cluster/DefaultAutoScalingGroup/InstanceProfile": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ClusterDefaultAutoScalingGroupInstanceProfile2BB4FE55",
+            "trace": [
+              "new AutoScalingGroup (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-autoscaling/lib/auto-scaling-group.ts:383:24)",
+              "Cluster.addCapacity (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/cluster.ts:119:30)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:13:13)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/Cluster/DefaultAutoScalingGroup/LaunchConfig": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ClusterDefaultAutoScalingGroupLaunchConfig81EA5466",
+            "trace": [
+              "new AutoScalingGroup (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-autoscaling/lib/auto-scaling-group.ts:392:26)",
+              "Cluster.addCapacity (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/cluster.ts:119:30)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:13:13)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/Cluster/DefaultAutoScalingGroup/ASG": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ClusterDefaultAutoScalingGroupASG0F98E147",
+            "trace": [
+              "new AutoScalingGroup (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-autoscaling/lib/auto-scaling-group.ts:443:29)",
+              "Cluster.addCapacity (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/cluster.ts:119:30)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:13:13)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/Cluster/DefaultAutoScalingGroup/DrainECSHook/Function/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ClusterDefaultAutoScalingGroupDrainECSHookFunctionServiceRole2AC250B1",
+            "trace": [
+              "new Role (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-iam/lib/role.ts:212:18)",
+              "new Function (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-lambda/lib/function.ts:402:31)",
+              "new InstanceDrainHook (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/drain-hook/instance-drain-hook.ts:52:16)",
+              "Cluster.addAutoScalingGroup (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/cluster.ts:174:7)",
+              "Cluster.addCapacity (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/cluster.ts:127:10)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:13:13)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/Cluster/DefaultAutoScalingGroup/DrainECSHook/Function/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ClusterDefaultAutoScalingGroupDrainECSHookFunctionServiceRoleDefaultPolicy221F6E5E",
+            "trace": [
+              "new Policy (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-iam/lib/policy.ts:96:22)",
+              "Role.addToPolicy (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-iam/lib/role.ts:256:28)",
+              "Function.addToRolePolicy (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-lambda/lib/function-base.ts:186:15)",
+              "new InstanceDrainHook (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/drain-hook/instance-drain-hook.ts:74:8)",
+              "Cluster.addAutoScalingGroup (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/cluster.ts:174:7)",
+              "Cluster.addCapacity (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/cluster.ts:127:10)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:13:13)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/Cluster/DefaultAutoScalingGroup/DrainECSHook/Function/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ClusterDefaultAutoScalingGroupDrainECSHookFunctionFE918865",
+            "trace": [
+              "new Function (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-lambda/lib/function.ts:419:35)",
+              "new InstanceDrainHook (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/drain-hook/instance-drain-hook.ts:52:16)",
+              "Cluster.addAutoScalingGroup (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/cluster.ts:174:7)",
+              "Cluster.addCapacity (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/cluster.ts:127:10)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:13:13)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/Cluster/DefaultAutoScalingGroup/DrainECSHook/Function/TopicSubscription/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ClusterDefaultAutoScalingGroupDrainECSHookFunctionTopicSubscription74FCB390",
+            "trace": [
+              "new Subscription (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-sns/lib/subscription.ts:50:5)",
+              "LambdaSubscription.bind (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-sns-subscriptions/lib/lambda.ts:27:5)",
+              "Topic.addSubscription (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-sns/lib/topic-base.ts:58:18)",
+              "FunctionHook.bind (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-autoscaling-hooktargets/lib/lambda-hook.ts:19:11)",
+              "new LifecycleHook (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-autoscaling/lib/lifecycle-hook.ts:101:50)",
+              "AutoScalingGroup.addLifecycleHook (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-autoscaling/lib/auto-scaling-group.ts:206:12)",
+              "new InstanceDrainHook (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/drain-hook/instance-drain-hook.ts:65:28)",
+              "Cluster.addAutoScalingGroup (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/cluster.ts:174:7)",
+              "Cluster.addCapacity (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/cluster.ts:127:10)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:13:13)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/Cluster/DefaultAutoScalingGroup/DrainECSHook/Function/Topic": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ClusterDefaultAutoScalingGroupDrainECSHookFunctionTopic0974B19C",
+            "trace": [
+              "Function.addPermission (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-lambda/lib/function-base.ts:171:5)",
+              "LambdaSubscription.bind (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-sns-subscriptions/lib/lambda.ts:33:13)",
+              "Topic.addSubscription (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-sns/lib/topic-base.ts:58:18)",
+              "FunctionHook.bind (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-autoscaling-hooktargets/lib/lambda-hook.ts:19:11)",
+              "new LifecycleHook (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-autoscaling/lib/lifecycle-hook.ts:101:50)",
+              "AutoScalingGroup.addLifecycleHook (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-autoscaling/lib/auto-scaling-group.ts:206:12)",
+              "new InstanceDrainHook (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/drain-hook/instance-drain-hook.ts:65:28)",
+              "Cluster.addAutoScalingGroup (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/cluster.ts:174:7)",
+              "Cluster.addCapacity (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/cluster.ts:127:10)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:13:13)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/Cluster/DefaultAutoScalingGroup/LifecycleHookDrainHook/Role/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ClusterDefaultAutoScalingGroupLifecycleHookDrainHookRole70201663",
+            "trace": [
+              "new Role (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-iam/lib/role.ts:212:18)",
+              "new LifecycleHook (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-autoscaling/lib/lifecycle-hook.ts:97:31)",
+              "AutoScalingGroup.addLifecycleHook (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-autoscaling/lib/auto-scaling-group.ts:206:12)",
+              "new InstanceDrainHook (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/drain-hook/instance-drain-hook.ts:65:28)",
+              "Cluster.addAutoScalingGroup (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/cluster.ts:174:7)",
+              "Cluster.addCapacity (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/cluster.ts:127:10)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:13:13)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/Cluster/DefaultAutoScalingGroup/LifecycleHookDrainHook/Role/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ClusterDefaultAutoScalingGroupLifecycleHookDrainHookRoleDefaultPolicyFFFD6EA5",
+            "trace": [
+              "new Policy (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-iam/lib/policy.ts:96:22)",
+              "Role.addToPolicy (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-iam/lib/role.ts:256:28)",
+              "Function.addToPrincipal (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-iam/lib/grant.ts:132:61)",
+              "Function.addToPrincipalOrResource (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-iam/lib/grant.ts:102:26)",
+              "Topic.grantPublish (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-sns/lib/topic-base.ts:82:22)",
+              "TopicHook.bind (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-autoscaling-hooktargets/lib/topic-hook.ts:13:16)",
+              "FunctionHook.bind (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-autoscaling-hooktargets/lib/lambda-hook.ts:20:33)",
+              "new LifecycleHook (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-autoscaling/lib/lifecycle-hook.ts:101:50)",
+              "AutoScalingGroup.addLifecycleHook (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-autoscaling/lib/auto-scaling-group.ts:206:12)",
+              "new InstanceDrainHook (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/drain-hook/instance-drain-hook.ts:65:28)",
+              "Cluster.addAutoScalingGroup (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/cluster.ts:174:7)",
+              "Cluster.addCapacity (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/cluster.ts:127:10)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:13:13)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/Cluster/DefaultAutoScalingGroup/LifecycleHookDrainHook/Topic/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ClusterDefaultAutoScalingGroupLifecycleHookDrainHookTopicFE5437FB",
+            "trace": [
+              "new Topic (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-sns/lib/topic.ts:51:22)",
+              "FunctionHook.bind (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-autoscaling-hooktargets/lib/lambda-hook.ts:18:19)",
+              "new LifecycleHook (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-autoscaling/lib/lifecycle-hook.ts:101:50)",
+              "AutoScalingGroup.addLifecycleHook (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-autoscaling/lib/auto-scaling-group.ts:206:12)",
+              "new InstanceDrainHook (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/drain-hook/instance-drain-hook.ts:65:28)",
+              "Cluster.addAutoScalingGroup (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/cluster.ts:174:7)",
+              "Cluster.addCapacity (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/cluster.ts:127:10)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:13:13)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/Cluster/DefaultAutoScalingGroup/LifecycleHookDrainHook/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ClusterDefaultAutoScalingGroupLifecycleHookDrainHook4A9A4325",
+            "trace": [
+              "new LifecycleHook (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-autoscaling/lib/lifecycle-hook.ts:103:22)",
+              "AutoScalingGroup.addLifecycleHook (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-autoscaling/lib/auto-scaling-group.ts:206:12)",
+              "new InstanceDrainHook (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/drain-hook/instance-drain-hook.ts:65:28)",
+              "Cluster.addAutoScalingGroup (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/cluster.ts:174:7)",
+              "Cluster.addCapacity (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/cluster.ts:127:10)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:13:13)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/dynamo-task-definition/TaskRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "dynamotaskdefinitionTaskRoleC410B8BE",
+            "trace": [
+              "new Role (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-iam/lib/role.ts:212:18)",
+              "new TaskDefinition (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/base/task-definition.ts:260:39)",
+              "new Ec2TaskDefinition (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/ec2/ec2-task-definition.ts:52:5)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:19:34)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/dynamo-task-definition/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "dynamotaskdefinition269A1E22",
+            "trace": [
+              "new TaskDefinition (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/base/task-definition.ts:264:21)",
+              "new Ec2TaskDefinition (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/ec2/ec2-task-definition.ts:52:5)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:19:34)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/dynamo-service/Service": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "dynamoserviceService0391429D",
+            "trace": [
+              "new BaseService (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/base/base-service.ts:146:21)",
+              "new Ec2Service (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ecs/lib/ec2/ec2-service.ts:114:5)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:30:27)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/external/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "external068F12D1",
+            "trace": [
+              "new BaseLoadBalancer (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/shared/base-load-balancer.ts:135:22)",
+              "new ApplicationLoadBalancer (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-load-balancer.ts:64:5)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:37:24)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/external/SecurityGroup/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "externalSecurityGroupCBA1C4B8",
+            "trace": [
+              "new SecurityGroup (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/security-group.ts:275:26)",
+              "new ApplicationLoadBalancer (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-load-balancer.ts:70:49)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:37:24)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/external/SecurityGroup/to DynamoDbStackClusterDefaultAutoScalingGroupInstanceSecurityGroupEE0AE61C:32768-65535": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "externalSecurityGrouptoDynamoDbStackClusterDefaultAutoScalingGroupInstanceSecurityGroupEE0AE61C3276865535DED7C25E",
+            "trace": [
+              "SecurityGroup.addEgressRule (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/security-group.ts:97:7)",
+              "SecurityGroup.addEgressRule (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/security-group.ts:321:13)",
+              "other.connections._securityGroupRules.forEachAndForever.rule (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/connections.ts:130:23)",
+              "ReactiveList.forEachAndForever (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/connections.ts:267:7)",
+              "_securityGroups.forEachAndForever.securityGroup (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/connections.ts:129:45)",
+              "ReactiveList.forEachAndForever (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/connections.ts:267:7)",
+              "Connections.allowTo (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-ec2/lib/connections.ts:128:26)",
+              "ApplicationListener.registerConnectable (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-listener.ts:249:22)",
+              "ApplicationTargetGroup.registerListener (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-target-group.ts:143:16)",
+              "ApplicationListener.addDefaultTargetGroup (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-listener.ts:268:17)",
+              "ApplicationListener.addTargetGroups (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-listener.ts:170:14)",
+              "ApplicationListener.addTargets (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-listener.ts:204:10)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:44:22)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/external/PublicListener/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "externalPublicListener4F32291C",
+            "trace": [
+              "new BaseListener (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/shared/base-listener.ts:19:22)",
+              "new ApplicationListener (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-listener.ts:113:5)",
+              "ApplicationLoadBalancer.addListener (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-load-balancer.ts:110:12)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:42:41)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/external/PublicListener/dynamoGroup/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "externalPublicListenerdynamoGroup4CF2022B",
+            "trace": [
+              "new TargetGroupBase (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/shared/base-target-group.ts:214:21)",
+              "new ApplicationTargetGroup (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-target-group.ts:81:5)",
+              "ApplicationListener.addTargets (/Users/john/MIT/Courses/awsCDK/DynamoDB/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-listener.ts:192:19)",
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:44:22)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ],
+        "/DynamoDbStack/ExternalDNS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ExternalDNS",
+            "trace": [
+              "new DynamoDbStack (/Users/john/MIT/Courses/awsCDK/DynamoDB/lib/dynamo_db-stack.ts:49:5)",
+              "Object.<anonymous> (/Users/john/MIT/Courses/awsCDK/DynamoDB/bin/dynamo_db.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:721:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:732:10)",
+              "Module.load (internal/modules/cjs/loader.js:620:32)",
+              "tryModuleLoad (internal/modules/cjs/loader.js:560:12)",
+              "Function.Module._load (internal/modules/cjs/loader.js:552:3)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:774:12)",
+              "executeUserCode (internal/bootstrap/node.js:342:17)",
+              "startExecution (internal/bootstrap/node.js:276:5)",
+              "startup (internal/bootstrap/node.js:227:5)",
+              "bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "runtime": {
+    "libraries": {
+      "@aws-cdk/cdk": "0.35.0",
+      "@aws-cdk/cx-api": "0.35.0",
+      "@aws-cdk/aws-ec2": "0.35.0",
+      "@aws-cdk/aws-iam": "0.35.0",
+      "@aws-cdk/region-info": "0.35.0",
+      "@aws-cdk/aws-cloudwatch": "0.35.0",
+      "@aws-cdk/aws-ecs": "0.35.0",
+      "@aws-cdk/aws-applicationautoscaling": "0.35.0",
+      "@aws-cdk/aws-autoscaling-common": "0.35.0",
+      "@aws-cdk/aws-elasticloadbalancingv2": "0.35.0",
+      "@aws-cdk/aws-servicediscovery": "0.35.0",
+      "@aws-cdk/aws-ecr-assets": "0.35.0",
+      "@aws-cdk/assets": "0.35.0",
+      "@aws-cdk/aws-cloudformation": "0.35.0",
+      "@aws-cdk/aws-lambda": "0.35.0",
+      "@aws-cdk/aws-sqs": "0.35.0",
+      "@aws-cdk/aws-kms": "0.35.0",
+      "@aws-cdk/aws-s3-assets": "0.35.0",
+      "@aws-cdk/aws-s3": "0.35.0",
+      "@aws-cdk/aws-events": "0.35.0",
+      "@aws-cdk/aws-ecr": "0.35.0",
+      "@aws-cdk/aws-autoscaling": "0.35.0",
+      "@aws-cdk/aws-autoscaling-hooktargets": "0.35.0",
+      "@aws-cdk/aws-sns": "0.35.0",
+      "@aws-cdk/aws-sns-subscriptions": "0.35.0",
+      "@aws-cdk/aws-logs": "0.35.0",
+      "jsii-runtime": "node.js/v11.6.0"
+    }
+  }
+}
