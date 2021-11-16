@@ -10,7 +10,7 @@
   "author": "john <jrw@mit.edu>",
   "license": "MIT",
   "dependencies": {
-    "aws-sdk": "^2.418.0",
+    "aws-sdk": "^2.814.0",
     "express": "^4.16.4"
   }
 }
